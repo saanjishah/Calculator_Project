@@ -1,0 +1,13 @@
+h1 {
+    color: deepskyblue;
+}
+#output {
+    border-style: solid;
+    width: 150px;
+    font-size: 24px;
+}
+.b1 {
+    font-size: 24px;
+    border: 2px solid deepskyblue;
+    border-radius: 8px;
+}

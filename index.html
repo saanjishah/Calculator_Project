@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Template</title>
+    <link rel="stylesheet" type="text/css" href="styleSheet.css">
+    <script src="javascript.js"></script>
+
+</head>
+<body>
+    <h1>Calculator</h1>
+    <p id = "output">0</p>
+    <input type = "button" onclick = "doOutput(1,'num')" value = "1" class = "b1">
+    <input type = "button" onclick = "doOutput(2,'num')" value = "2" class = "b1">
+    <input type = "button" onclick = "doOutput(3,'num')" value = "3" class = "b1">
+    <input type = "button" onclick = "doOutput('+','op')" value = "+" class = "b1">
+    <br>
+    <input type = "button" onclick = "doOutput(4,'num')" value = "4" class = "b1">
+    <input type = "button" onclick = "doOutput(5,'num')" value = "5" class = "b1">
+    <input type = "button" onclick = "doOutput(6,'num')" value = "6" class = "b1">
+    <input type = "button" onclick = "doOutput('-','op')" value = "-" class = "b1">
+    <br>
+    <input type = "button" onclick = "doOutput(7,'num')" value = "7" class = "b1">
+    <input type = "button" onclick = "doOutput(8,'num')" value = "8" class = "b1">
+    <input type = "button" onclick = "doOutput(9,'num')" value = "9" class = "b1">
+    <input type = "button" onclick = "doOutput('*','op')" value = "*" class = "b1">
+    <br>
+    <input type = "button" onclick = "mathPI()" value = "π" class = "b1">
+    <input type = "button" onclick = "doOutput(0,'num')" value = "0" class = "b1">
+    <input type = "button" onclick = "doOutput('^','op')" value = "^" class = "b1">
+    <input type = "button" onclick = "doOutput('/','op')" value = "/" class = "b1">
+    <input type = "button" onclick = "doOutput('sqrt','op')" value = "√" class = "b1">
+    <br>
+    <input type = "button" onclick = "clearOutput()" value = "clear" class = "b1">
+    <input type = "button" onclick = "store()" value = "ans" class = "b1">
+    <input type = "button" onclick = "determineAnswer()" value = "=" class = "b1">
+    <br>
+    <br>
+    <input type = "button" onclick = "doOutput('r','op')" value = "random number" class = "b1">
+    <p>Click one number defining the upper bound. Then, press Random Number. Then, another number for the lower bound, and then =.</p>
+</body>
+</html>
